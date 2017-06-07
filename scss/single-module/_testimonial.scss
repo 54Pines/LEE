@@ -1,0 +1,43 @@
+.ryl-testimonial-carousel-item{
+    text-align: center;
+    .ryl-quote{
+        font-size: $font-size-5;
+        background-color: $trans-dark-color1;
+        padding: 30px;
+        max-width: 1160px;
+        margin-bottom: 40px;
+        @include center-block;
+    }
+    .ryl-author{
+        .ryl-name{
+            font-size: $font-size-5;
+        }
+        .ryl-website{
+            font-weight:bold;
+            color: $main-color;
+        }
+    }
+}
+
+.ryl-testimonial-separator{
+    max-width: 720px;
+    border-color: $trans-light-color1;
+}
+
+.ryl-brand-carousel{
+    a{
+        display: block;
+        position: relative;
+        margin:20px;
+        opacity: 0.6;
+        @include easing-animation;
+        @include clearfix;
+        &:hover{
+            opacity: 1;
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+}
