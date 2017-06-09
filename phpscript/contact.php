@@ -50,4 +50,8 @@ $headers = 'info@legallee.com'."\r\n".
 
 @mail($email_to, $email_subject, $email_message, $headers);
 // header('Location: http://54pines.com/LegalleeRedux/contactsuccess.php');
+
+if (!empty($contact_email)) {
+    echo "success";
+}
 exit();

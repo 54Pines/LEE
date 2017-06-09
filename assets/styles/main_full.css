@@ -1054,7 +1054,7 @@ textarea {
 }
 
 
-/* 
+/*
  *  Owl Carousel - Lazy Load Plugin
  */
 
@@ -2723,13 +2723,13 @@ h3.ryl-bold-heading.phone-top-mobile {
 }
 
 
-/* 
+/*
   h3.ryl-bold-heading.phone-top-mobile:before {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #FFBF00; 
+    background: #FFBF00;
     z-index: -1;
     opacity: 0.3;
     top: 0;
@@ -2843,7 +2843,7 @@ section.ryl-bg-dots .button-box .inner a.right {
 }
 .container .success-box {
     /* position: relative; */
-    margin: 20% auto 0;
+    /*margin: 20% auto 0;*/
     padding: 2em;
     width: 95%;
     max-width: 500px;
@@ -2858,7 +2858,7 @@ section.ryl-bg-dots .button-box .inner a.right {
     font-size: 20px;
 }
 
-/* 
+/*
 @media only screen and (max-width: 410px) {
 
 
@@ -2868,7 +2868,7 @@ section.ryl-bg-dots .button-box .inner a.right {
         position: relative;
         max-width: 30px;
         display: inline-block;
-        
+
     }
     .ryl-icon-circle-border-3 {
         width: 35px;
@@ -2903,7 +2903,7 @@ section.ryl-bg-dots .button-box .inner a.right {
         position: relative;
         /* max-width: 30px; */
         display: inline-block;
-        
+
     }
     .ryl-icon-circle-border-3 {
         width: 60px;
@@ -2974,7 +2974,7 @@ section.ryl-bg-dots .button-box .inner a.right {
       }
 }
 @media only screen and (min-width: 768px) {
-    
+
       .ryl-personalinjury-wrapper .ryl-title {
         margin: 18em auto 3em;
         max-width: 700px;
@@ -3167,5 +3167,5 @@ section.ryl-bg-dots .button-box .inner a.right {
         margin: 17em auto 3em;
     }
 
-	
+
 }
