@@ -48,10 +48,9 @@ $headers = 'info@54pines.com'."\r\n".
 
 'X-Mailer: PHP/'.phpversion();
 
-@mail($email_to, $email_subject, $email_message, $headers);
-// header('Location: http://54pines.com/LegalleeRedux/contactsuccess.php');
-
-if (!empty($contact_email)) {
-    echo "success";
+if (!empty($contact_name) && !empty($contact_email) && !empty($contact_phone) && !empty($contact_message)) {
+	@mail($email_to, $email_subject, $email_message, $headers);
+	// header('Location: http://54pines.com/LegalleeRedux/contactsuccess.php');
+  echo "success";
 }
 exit();
