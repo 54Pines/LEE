@@ -44,7 +44,7 @@ $email_message .= "Phone: ".clean_string($contact_phone)."\n";
 
 $email_message .= "Message: ".clean_string($contact_message)."\n";
 
-$headers = 'info@legallee.com'."\r\n".
+$headers = 'info@54pines.com'."\r\n".
 
 'X-Mailer: PHP/'.phpversion();
 
