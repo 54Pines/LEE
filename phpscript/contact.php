@@ -2,7 +2,7 @@
 // EDIT A LINE BELOW AS REQUIRED
 ob_start();
 
-$email_to = "aaron@54pines.com";
+$email_to = "54pines@gmail.com";
 
 // CUSTOME YOUR EMAIL SUBJECT
 
