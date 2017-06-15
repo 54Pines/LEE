@@ -2,7 +2,7 @@
 // EDIT A LINE BELOW AS REQUIRED
 ob_start();
 
-$email_to = "alex@steveleelaw.com, slee@steveleelaw.com";
+$email_to = "aaron@54pines.com";
 
 // CUSTOME YOUR EMAIL SUBJECT
 
