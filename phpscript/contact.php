@@ -2,7 +2,7 @@
 // EDIT A LINE BELOW AS REQUIRED
 ob_start();
 
-$email_to = "54pines@gmail.com";
+$email_to = "alex@steveleelaw.com, slee@steveleelaw.com";
 
 // CUSTOME YOUR EMAIL SUBJECT
 
@@ -44,7 +44,7 @@ $email_message .= "Phone: ".clean_string($contact_phone)."\n";
 
 $email_message .= "Message: ".clean_string($contact_message)."\n";
 
-$headers = 'info@54pines.com'."\r\n".
+$headers = 'info@legallee.com'."\r\n".
 
 'X-Mailer: PHP/'.phpversion();
 
